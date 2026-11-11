@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hayismohammed.github.io/sitemap.xml
+Sitemap: https://hayismohammed.github.io/portfolio/sitemap.xml
+
