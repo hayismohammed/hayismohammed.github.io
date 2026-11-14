@@ -1,14 +1,13 @@
 # معرض أعمال هايس العنزي
 
-صفحة الهوية لجذر الموقع https://hayismohammed.github.io/، مع روابط المعرض والدورات والأدلة المجانية.
+جذر الموقع https://hayismohammed.github.io/ ينقل الزائر فورًا إلى معرض الأعمال https://hayismohammed.github.io/portfolio/.
+
+صفحة الجذر تبقي وسم التحقق من Google، وتعلن الانتقال بتحديث فوري (`meta refresh` بمهلة صفر) مع رابط أساسي `canonical` يشير إلى المعرض. `location.replace` مسار إضافي في المتصفحات التي تنفّذ JavaScript، حتى لا يعيد زر الرجوع الزائر إلى صفحة الانتقال. إذا مُنع التحديث التلقائي، يبقى في الصفحة عنوان ورابط عربي واضح إلى المعرض.
 
 - المعرض: https://hayismohammed.github.io/portfolio/
-- دورات VoiceOver: https://hayismohammed.github.io/portfolio/samples/voiceover-course/
-- الأدلة المجانية: https://hayismohammed.github.io/portfolio/guides/
+- `sitemap.xml` في الجذر فهرس خرائط يشير إلى خريطة المعرض، ولا يسرد عنوان الجذر
+- `robots.txt` يسمح بالزحف إلى `/` ويعلن خريطة الجذر وخريطة المعرض
 
-تحتوي الصفحة على بيانات WebSite وPerson المنظمة، واسم الموقع العربي، ووسم التحقق الرسمي من Google، مع robots.txt وخريطة للجذر. يُنشر الموقع عبر GitHub Pages من main ومجلد الجذر. لا يغيّر هذا المستودع محتوى مستودع portfolio أو مساراته.
-
-اختيار اسم الموقع في نتائج البحث آلي ويحتاج إلى إعادة زحف ومعالجة لدى Google.
+يُنشر الموقع عبر GitHub Pages من main ومجلد الجذر. لا يغيّر هذا المستودع محتوى مستودع portfolio أو مساراته.
 
 جميع الحقوق محفوظة وفق LICENSE.
-
