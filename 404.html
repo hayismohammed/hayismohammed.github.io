@@ -27,7 +27,7 @@
       font-weight: 700;
       text-underline-offset: .2em;
     }
-    a + a { margin-inline-start: .75rem; }
+    .error-links { display: flex; flex-wrap: wrap; gap: .75rem; }
     a { min-height: 44px; min-width: 44px; box-sizing: border-box; overflow-wrap: anywhere; }
     a:focus-visible { outline: 3px solid #102b3c; outline-offset: 4px; }
   </style>
@@ -37,7 +37,7 @@
   <main>
     <h1>الصفحة غير موجودة</h1>
     <p>قد يكون العنوان غير صحيح، أو نُقلت الصفحة إلى مكان آخر.</p>
-    <p>
+    <p class="error-links">
       <a href="https://hayismohammed.github.io/portfolio/">العودة إلى معرض أعمال هايس العنزي</a>
       <a href="https://hayismohammed.github.io/portfolio/guides/">الأدلة</a>
     </p>
